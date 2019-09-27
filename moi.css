@@ -16,3 +16,28 @@ body {
 .def {
 color:blue
 }
+
+caption {
+	color:red;
+	font-family:cursive;
+	border:solid black;
+	background: gold;
+}
+
+caption:hover {
+	color:green;
+}
+
+.image {
+	background-image: url('1.jpeg');
+	background-size: 150px;
+	height: 150px;
+	width: 150px;
+	margin-left: 35em;
+	background-repeat: no-repeat;
+	
+}
+.image:hover
+{
+	background-image: url('2.jpeg');
+}
